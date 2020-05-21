@@ -1,0 +1,98 @@
+#navbar {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 2em;
+}
+
+.img1 {
+    float: right;
+}
+
+a.highlight:hover {
+    color: #ff0000;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 400px;
+    height: 300px;
+}
+
+div.desc {
+    padding: 5px 15px 15px 15px;
+    text-align: center;
+}
+
+div.name {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+div.extra {
+    text-align: center;
+    padding-top: 10px;
+}
+
+a.link:hover {
+    color: green;
+}
+
+div.main {
+
+}
+
+footer {
+
+}
+
+.center {
+    text-align: center;
+    font-size: 2em;
+}
+
+img.gallery:hover {
+    opacity: 0.5;
+}
+
+
+
+/* ol,ul {
+    list-style: none;
+}
+
+#mainMenu {
+    width: 9px;
+} */
+
+/* #mainMenu li {
+    list-style: none;
+    /* background-color: aliceblue; */
+    display: block;
+    /* float: left; */
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+} */
+
+/* #mainMenu a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 50px 50px;
+    text-decoration: none;
+} */
