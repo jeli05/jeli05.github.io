@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <head>
         <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
         <title>The Garden Gallery | Outdoor</title>
     </head>
@@ -11,11 +12,21 @@
         <header id="navbar" class="title">
             <h1>The Garden Gallery</h1>
         </header>
-        <nav id="navbar">
-            <a class="highlight" href="index.html">Home</a> |
-            <a class="highlight" href="indoor.html">Indoor</a> |
+        <div class="navbar">
+            <a class="highlight" href="index.html">Home</a>
+            <a class="highlight" href="indoor.html">Indoor</a>
             <a class="highlight" href="outdoor.html">Outdoor</a>
-        </nav>
+            <div class="dropdown" style="float:right;">
+                <!-- <div class="drop">Temp</div> -->
+                <!-- <div class="drop highlight" style="float:right; padding: 15px;">Temp</div> -->
+                <div><i class="material-icons highlight">language</i></div>
+                <div class="dropdown-content">
+                    <a href="#" style="font-weight: bold;">English <i class="material-icons" style="float:right;">done</i></a>
+                    <a href="outdoorZH.html">中文</a>
+                </div>
+            </div>
+        </div>
+        <hr>
         <h2 class="center">Outdoor Flowers</h2>
 
         <div class="gallery">
@@ -24,7 +35,7 @@
             </a>
             <div class="desc">
                 <div class="name">Red Azalea</div>
-                Red Azalea description
+                <!-- Red Azalea description -->
                 <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Azalea>More information</a></div>
             </div>
         </div>
@@ -35,7 +46,7 @@
             </a>
             <div class="desc">
                 <div class="name">Purple Azalea</div>
-                Purple Azalea description
+                <!-- Purple Azalea description -->
                 <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Azalea>More information</a></div>
             </div>
         </div>
@@ -46,30 +57,30 @@
             </a>
             <div class="desc">
                 <div class="name">Anemone Clematis</div>
-                Anemone clematis description
+                <!-- Anemone clematis description -->
                 <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Clematis_montana>More information</a></div>
             </div>
         </div>
 
         <div class="gallery">
-            <a target="_blank" href="C:/Users/Jeff/Documents/Flowers/Primrose.jpg">
-                <img class="gallery" src="https://lh3.googleusercontent.com/4JgVwOqgKoLxVTyWhSkS9iP597nWu2ivuO8Fop1cstRXNoGWJuSmEJZumpGyGo1GAXg5VYzVsRrwoOrATcYD5QJAyhvURuVNe1Js84dehe9q35k29osWsZaEFsD-qam6MMdiOBYFVes1QCBFLUav1lN80xT_sQkLmixb9RZRm0fmpJ_it37MnpjO3IPbge7azHIBmOdzlPtCUDLoovhPKdyxhoBX8MYwTc5_t58R50rmQ-t-868J4cSKld51rZpDRgZMfMZZzKrmKhJkmV_7B8GEzpmkzZexqhZR78H-kGbQ7lok16N8A-MLSDDoawUz-Z2WT898fX5_2pkJNGF1lFfizjrBdhqN0dq6muSy9nrdkIFDG6sS9mxmUkVyAvk-w_dwm7jjmOoMk9Djh9SjUX9z9Rf0wvQaXRzYjF5QW_n17_YBOxAxUawdgUUotYKWb5oYEkVjTIPWNdTGZvwhtNsj5Gm79a5KFynx_AppJl44M5THuGETpYgyWKFs5IbcI1WSYMCa54AjMD6bwvG96Oghjk34qGx8a9hxIwkwEdUg0fesV1KfW7nSCGdw17qVog5TUEsduyigW4vxEMFxtMmEKndsjNagK6G_0ZDiTzXa-QsqyPNM4eYFWpOR93XCcGQi1E3exOfIddsiB2vSyfy1fNXEswC1BAp1sCg0IvpBwuVhGbJRT_Aync08=w1157-h867-no?authuser=0" alt="Picture of primrose" width="400" height="300">
+            <a target="_blank" href="C:/Users/Jeff/Documents/Flowers/Heather.jpg">
+                <img class="gallery" src="https://lh3.googleusercontent.com/s-y4x2pXUVPSoh0rcs2k449gtx8zhuM450Ho_zQiftP1hTFHVDFOQmpBpfgiouJNVY1QNAItMDBq7FR5zM9ZZoNOxRZzJlM28bcSBtWFMk-92zhPEfCOVq9h-ii1xFmtNavHKZQ9BV77t1gt6SXoVBW-Zo2CVowJ-3w52DmRTJ1-YpS_fv9BVy5CBkKALWRVR5gtOINfcmMrZMEH0mu5iFcXpdYCAgHvgIsy9YfUnTXkD_Lt1HrTMbrYtjMsu1iqpXsNR11kYUEmas5eqHtTS_gSnF-mdKWJ48rjjaClbL3uHz0OWQ9BueHCpdAn-9vGuq26PGOG243LamCnV6G7_zctuuKtZ7w_ct599yfor5cTkCT9tCx1AxdHZCl7qvMFPCo_20apz0L7V7f5iRWRg6uoS0B1Xn53wW1fEVuzhhuxc_FSlIcQICCWF_s3Dew7X6QUHE3RE3HlBBCuLDS5RX65yRmXl7uVVsI7C7GAZTqEJRpN5xvMj8HbAh1su-b5Wrg9LLXyXT8g6x6kYEkjD3rq68KD5RGJfvEjp0VoGkVnNhwp_hN76Qp0vvFUv4-w8P7PuGPf8gNa8C0hK2-uFW5DvESL7s3qZbc-HU3EMG7A_a_RaBRn_QagiqFlnNROdRhAi6kZrYvldPjChXlJ2OeYANY6cvUKqqccklgVtQUkRGgu-CeagEcFYqckQWlNmG0Bxw=s1157-w1157-h867-no?authuser=0" alt="Picture of primrose" width="400" height="300">
             </a>
             <div class="desc">
                 <div class="name">Winter Heather</div>
-                Winter heather description
-                <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Primula_vulgaris>More information</a></div>
+                <!-- Winter heather description -->
+                <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Erica_carnea>More information</a></div>
             </div>
         </div>
 
         <div class="gallery">
-            <a target="_blank" href="C:/Users/Jeff/Documents/Flowers/Heather.jpg">
-                <img class="gallery" src="https://lh3.googleusercontent.com/s-y4x2pXUVPSoh0rcs2k449gtx8zhuM450Ho_zQiftP1hTFHVDFOQmpBpfgiouJNVY1QNAItMDBq7FR5zM9ZZoNOxRZzJlM28bcSBtWFMk-92zhPEfCOVq9h-ii1xFmtNavHKZQ9BV77t1gt6SXoVBW-Zo2CVowJ-3w52DmRTJ1-YpS_fv9BVy5CBkKALWRVR5gtOINfcmMrZMEH0mu5iFcXpdYCAgHvgIsy9YfUnTXkD_Lt1HrTMbrYtjMsu1iqpXsNR11kYUEmas5eqHtTS_gSnF-mdKWJ48rjjaClbL3uHz0OWQ9BueHCpdAn-9vGuq26PGOG243LamCnV6G7_zctuuKtZ7w_ct599yfor5cTkCT9tCx1AxdHZCl7qvMFPCo_20apz0L7V7f5iRWRg6uoS0B1Xn53wW1fEVuzhhuxc_FSlIcQICCWF_s3Dew7X6QUHE3RE3HlBBCuLDS5RX65yRmXl7uVVsI7C7GAZTqEJRpN5xvMj8HbAh1su-b5Wrg9LLXyXT8g6x6kYEkjD3rq68KD5RGJfvEjp0VoGkVnNhwp_hN76Qp0vvFUv4-w8P7PuGPf8gNa8C0hK2-uFW5DvESL7s3qZbc-HU3EMG7A_a_RaBRn_QagiqFlnNROdRhAi6kZrYvldPjChXlJ2OeYANY6cvUKqqccklgVtQUkRGgu-CeagEcFYqckQWlNmG0Bxw=s1157-w1157-h867-no?authuser=0" alt="Picture of winter heather" width="400" height="300">
+            <a target="_blank" href="C:/Users/Jeff/Documents/Flowers/Primrose.jpg">
+                <img class="gallery" src="https://lh3.googleusercontent.com/4JgVwOqgKoLxVTyWhSkS9iP597nWu2ivuO8Fop1cstRXNoGWJuSmEJZumpGyGo1GAXg5VYzVsRrwoOrATcYD5QJAyhvURuVNe1Js84dehe9q35k29osWsZaEFsD-qam6MMdiOBYFVes1QCBFLUav1lN80xT_sQkLmixb9RZRm0fmpJ_it37MnpjO3IPbge7azHIBmOdzlPtCUDLoovhPKdyxhoBX8MYwTc5_t58R50rmQ-t-868J4cSKld51rZpDRgZMfMZZzKrmKhJkmV_7B8GEzpmkzZexqhZR78H-kGbQ7lok16N8A-MLSDDoawUz-Z2WT898fX5_2pkJNGF1lFfizjrBdhqN0dq6muSy9nrdkIFDG6sS9mxmUkVyAvk-w_dwm7jjmOoMk9Djh9SjUX9z9Rf0wvQaXRzYjF5QW_n17_YBOxAxUawdgUUotYKWb5oYEkVjTIPWNdTGZvwhtNsj5Gm79a5KFynx_AppJl44M5THuGETpYgyWKFs5IbcI1WSYMCa54AjMD6bwvG96Oghjk34qGx8a9hxIwkwEdUg0fesV1KfW7nSCGdw17qVog5TUEsduyigW4vxEMFxtMmEKndsjNagK6G_0ZDiTzXa-QsqyPNM4eYFWpOR93XCcGQi1E3exOfIddsiB2vSyfy1fNXEswC1BAp1sCg0IvpBwuVhGbJRT_Aync08=w1157-h867-no?authuser=0" alt="Picture of winter heather" width="400" height="300">
             </a>
             <div class="desc">
                 <div class="name">Primrose</div>
-                Primrose description
-                <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Erica_carnea>More information</a></div>
+                <!-- Primrose description -->
+                <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Primula_vulgaris>More information</a></div>
             </div>
         </div>
 
@@ -79,7 +90,7 @@
             </a>
             <div class="desc">
                 <div class="name">Coast Rock Cress</div>
-                Coast rock cress description
+                <!-- Coast rock cress description -->
                 <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Arabis_blepharophylla>More information</a></div>
             </div>
         </div>
@@ -90,7 +101,7 @@
             </a>
             <div class="desc">
                 <div class="name">Meadow buttercup</div>
-                Meadow buttercup description
+                <!-- Meadow buttercup description -->
                 <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Ranunculus_acris>More information</a></div>
             </div>
         </div>
@@ -101,7 +112,7 @@
             </a>
             <div class="desc">
                 <div class="name">Viburnum</div>
-                Viburnum description
+                <!-- Viburnum description -->
                 <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Viburnum>More information</a></div>
             </div>
         </div>
@@ -112,7 +123,7 @@
             </a>
             <div class="desc">
                 <div class="name">Asian Virginsbower</div>
-                Asian virginsbower description
+                <!-- Asian virginsbower description -->
                 <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Clematis_terniflora>More information</a></div>
             </div>
         </div>
@@ -123,7 +134,7 @@
             </a>
             <div class="desc">
                 <div class="name">Leather Flower</div>
-                Leather flower description
+                <!-- Leather flower description -->
                 <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Clematis>More information</a></div>
             </div>
         </div>
@@ -134,7 +145,7 @@
             </a>
             <div class="desc">
                 <div class="name">Geranium</div>
-                Geranium description
+                <!-- Geranium description -->
                 <div class="extra"><a class="link" href=https://en.wikipedia.org/wiki/Pelargonium>More information</a></div>
             </div>
         </div>
